@@ -1,0 +1,21 @@
+-= AutoEbooks =-
+A simple Twitter "ebooks" app. 
+Features:
+ - unattended mode (automatic_mode in configs) — specially for scheduling in cron!
+ - username != twittername, any timeline can be grabbed
+ - remove t.co links and @mentions
+ - OAuth login, asks you to go to a link and enter PIN on first launch, saves them in files
+ - Optional BadTranslation via BING
+
+Install dependencies by CDing into each folder of dependencies_archives and doing:
+	python ./setup.py install
+	
+Edit markov_twit.py Settings section
+
+Then run in the folder:
+	python markov_twit.py
+	
+	
+That is it!
+Thanks for using AutoEbooks by vladkorotnev!
+(C) vladkorotnev 2012
